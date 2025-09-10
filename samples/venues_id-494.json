@@ -1,0 +1,24 @@
+{
+  "get": "venues",
+  "parameters": {
+    "id": "494"
+  },
+  "errors": [],
+  "results": 1,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "id": 494,
+      "name": "Emirates Stadium",
+      "address": "Hornsey Road",
+      "city": "London",
+      "country": "England",
+      "capacity": 60383,
+      "surface": "grass",
+      "image": "https://media.api-sports.io/football/venues/494.png"
+    }
+  ]
+}
