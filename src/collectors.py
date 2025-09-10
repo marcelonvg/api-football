@@ -67,7 +67,7 @@ def collect_teams(
         total += int(data.get("results") or 0)
 
         for item in data.get("response") or []:
-            if len(venue_ids) >= limit:  # também limitar venues coletados
+            if len(venue_ids) >= limit:  
                 break
             venue = item.get("venue") or {}
             vid = venue.get("id")
