@@ -23,3 +23,4 @@ cd <seu-repo>
 python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
+run python -m src.main
